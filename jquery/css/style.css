@@ -1,22 +1,5 @@
-/*
 
-Il faut cacher les images sauf celle qui est .active.
-Même chose pour les <article>
-
-*/
-
-.image img:not(.active) {
+.js-images img:not(.active), .js-text article:not(.active) {
     display: none;
 }
 
-.container text:not(.active) {
-    display: none;
-}
-
-/*
-
-selecteur multiple
-
-*/
-.image img:not(.active),.container text:not(.active) {
-    display: none;}
